@@ -204,7 +204,7 @@ async function checkCreatePostLimit(
     throw error;
   }
 
-  return (count ?? 0) < 4;
+  return (count ?? 0) < 200;
 }
 
 

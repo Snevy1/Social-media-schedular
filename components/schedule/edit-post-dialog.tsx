@@ -227,7 +227,7 @@ export function EditPostDialog({
                                                                 ? "bg-orange-100 text-orange-600"
                                                                 : "bg-muted text-muted-foreground"
                                                         )}>
-                                                            {content.length} / {channel?.character_limit || 280}
+                                                            {content.length} / {channel?.character_limit || 600}
                                                         </span>
                                                     </div>
                                                 }

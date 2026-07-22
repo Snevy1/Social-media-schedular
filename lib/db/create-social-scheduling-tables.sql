@@ -20,7 +20,7 @@ create table if not exists channel_types (
 );
 
 insert into channel_types (type, name, color, character_limit) values
-  ('TWITTER',   'Twitter / X', '#000000', 280),
+  ('TWITTER',   'Twitter / X', '#000000', 1000),
   ('LINKEDIN',  'LinkedIn',    '#2867b2', 3000),
   ('INSTAGRAM', 'Instagram',   '#E4405F', 2200),
   ('THREADS',   'Threads',     '#000000', 500),
